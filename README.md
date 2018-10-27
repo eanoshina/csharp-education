@@ -29,14 +29,14 @@
     * `protected`
     * `abstract`
     * `virtual`
-  * Понять для чего служат интерфейсы ![теория](http://mycsharp.ru/post/36/2013_12_25_interfejsy_v_si-sharp_mnozhestvennoe_nasledovanie.html)
+  * Понять для чего служат интерфейсы [теория](http://mycsharp.ru/post/36/2013_12_25_interfejsy_v_si-sharp_mnozhestvennoe_nasledovanie.html)
 * Понять что значит слово `null`
 * Понять как можно перегрузить/реализовать арифметические операторы (умножение, сложение и т.д.)
 * Понять что такое `extension` методы
 
 #### Более углубленное изучение
 
-* Понять какой смысл несут слова `ref` и `out` и зачем они нужны ![теория](http://mycsharp.ru/post/46/2014_08_26_ssylochnye_tipy_i_tipy_znachenij_v_si-sharp_klyuchevye_slova_ref_i_out.html)
+* Понять какой смысл несут слова `ref` и `out` и зачем они нужны [теория](http://mycsharp.ru/post/46/2014_08_26_ssylochnye_tipy_i_tipy_znachenij_v_si-sharp_klyuchevye_slova_ref_i_out.html)
 * Продолжение следует...
 
 ### Последовательность выполнения задач
