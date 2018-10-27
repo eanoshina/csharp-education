@@ -11,7 +11,7 @@ namespace Lesson1
             var nissan = new Nissan(2000, "beeep","xray");
             nissan.MakeBeep();
             nissan.MakeModel();
-            var huynday = new Huynday(2090, "beeep beep","santafe");
+            var huynday = new Huynday(2090, "beeep beep","santa fe");
             huynday.MakeBeep();
             huynday.MakeModel();
             var skoda = new Skoda(2078, "gay","yety");
