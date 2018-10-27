@@ -2,11 +2,11 @@ using System;
 
 namespace Lesson1
 {
-    public class Nissan : Car
+    public class Skoda : Car
     {
-        public Nissan(int year, string beepSound, string model)
+        public Skoda(int year, string beepSound, string model)
         {
-            _name = "Nissan";
+            _name = "Skoda";
             _year = year;
             _beepSound = beepSound;
             _Model = model;
@@ -18,6 +18,8 @@ namespace Lesson1
         }
         public override void MakeModel()
         {
+            Console.Out.WriteLine(_name + ", " + _Model);
+            Console.Out.WriteLine(_name + ", " + _Model);
             Console.Out.WriteLine(_name + ", " + _Model);
         }
     }
