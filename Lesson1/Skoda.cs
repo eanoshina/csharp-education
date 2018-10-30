@@ -4,12 +4,15 @@ namespace Lesson1
 {
     public class Skoda : Car
     {
-        public Skoda(int year, string beepSound, string model)
+        public Skoda(int year, string beepSound, string model, string color, int power, string transmission)
         {
             _name = "Skoda";
             _year = year;
             _beepSound = beepSound;
             _model = model;
+            _color = color;
+            _power = power;
+            _transmision = transmission;
         }
 
         public override void MakeBeep()
@@ -19,6 +22,20 @@ namespace Lesson1
         public override string GetModel()
         {
             return _model;
+        }
+        public override int GetPower()
+        {
+            return _power;
+        }
+
+        public override string GetColor()
+        {
+            return _color;
+        }
+
+        public override string GetTransmision()
+        {
+            return _transmision;
         }
     }
 }
