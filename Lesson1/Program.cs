@@ -10,13 +10,13 @@ namespace Lesson1
         {
             var nissan = new Nissan(2000, "beeep","xray");
             nissan.MakeBeep();
-            nissan.MakeModel();
+            nissan.GetModel();
             var huynday = new Huynday(2090, "beeep beep","santa fe");
             huynday.MakeBeep();
-            huynday.MakeModel();
+            huynday.GetModel();
             var skoda = new Skoda(2078, "gay","yety");
             skoda.MakeBeep();
-            skoda.MakeModel();
+            skoda.GetModel();
             
         }
     }

@@ -9,7 +9,7 @@ namespace Lesson1
             _name = "Huynday";
             _year = year;
             _beepSound = beepSound;
-            _Model = model;
+            _model = model;
         }
 
         public override void MakeBeep()
@@ -18,9 +18,9 @@ namespace Lesson1
             Console.Out.WriteLine(_name + ", " + _beepSound);
             Console.Out.WriteLine(_name + ", " + _beepSound);
         }
-        public override void MakeModel()
+        public override string GetModel()
         {
-            Console.Out.WriteLine(_name + ", " + _Model);
+            return _model;
         }
     }
 }

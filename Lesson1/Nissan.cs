@@ -9,16 +9,16 @@ namespace Lesson1
             _name = "Nissan";
             _year = year;
             _beepSound = beepSound;
-            _Model = model;
+            _model = model;
         }
 
         public override void MakeBeep()
         {
             Console.Out.WriteLine(_name + ", " + _beepSound);
         }
-        public override void MakeModel()
+        public override string GetModel()
         {
-            Console.Out.WriteLine(_name + ", " + _Model);
+            return _model;
         }
     }
 }

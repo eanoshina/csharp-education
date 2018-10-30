@@ -5,7 +5,7 @@ namespace Lesson1
         protected string _name;
         protected int _year;
         protected string _beepSound;
-        protected string _Model;
+        protected string _model;
 
         public string GetName()
         {
@@ -18,6 +18,6 @@ namespace Lesson1
         }
 
         public abstract void MakeBeep();
-        public abstract void MakeModel();
+        public abstract string GetModel();
     }
 }
