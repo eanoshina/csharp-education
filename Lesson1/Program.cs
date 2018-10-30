@@ -8,7 +8,7 @@ namespace Lesson1
     {
         public static void Main(string[] args)
         {
-            var nissan = new Nissan(2000, "beeep","xray","red",89,"auto");
+            var nissan = new Nissan(2000, "beeep","xray","red",107,"auto");
             nissan.MakeBeep();
             nissan.GetModel();
             nissan.GetPower();
