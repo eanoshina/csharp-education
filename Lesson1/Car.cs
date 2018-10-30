@@ -1,15 +1,11 @@
 namespace Lesson1
 {
-    public class Car
+    public abstract class Car
     {
-        private string _name;
-        private int _year;
-
-        public Car(string name, int year)
-        {
-            _name = name;
-            _year = year;
-        }
+        protected string _name;
+        protected int _year;
+        protected string _beepSound;
+        protected string _model;
 
         public string GetName()
         {
@@ -20,5 +16,8 @@ namespace Lesson1
         {
             return _year;
         }
+
+        public abstract void MakeBeep();
+        public abstract string GetModel();
     }
 }
