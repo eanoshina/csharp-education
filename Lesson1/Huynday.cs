@@ -2,11 +2,11 @@ using System;
 
 namespace Lesson1
 {
-    public class Huynday : Car
+    public class Hyundai : Car
     {
-        public Huynday(int year, string beepSound, string model)
+        public Hyundai(int year, string beepSound, string model)
         {
-            _name = "Huynday";
+            _name = "Hyundai";
             _year = year;
             _beepSound = beepSound;
             _model = model;
