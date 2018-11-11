@@ -39,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="Consultant.cs" />
     <Compile Include="Hyundai.cs" />
     <Compile Include="ICar.cs" />
     <Compile Include="Nissan.cs" />
