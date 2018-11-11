@@ -40,6 +40,9 @@ namespace Lesson1
         {
             return _year;
         }
+
+        public abstract void MakeBeep();
+        public abstract string GetModel();
     }
 
     public enum Transmission
