@@ -3,7 +3,7 @@ namespace Lesson1
     public abstract class Car : ICar
 
     {
-        protected string _name;
+        protected Name _name;
         protected int _year;
         protected string _model;
         protected string _color;
@@ -16,7 +16,7 @@ namespace Lesson1
             return _power;
         }
 
-        public string GetName()
+        public Name GetName()
         {
             return _name;
         }
@@ -46,5 +46,12 @@ namespace Lesson1
     {
         Manual,
         Auto
+    }
+
+    public enum Name
+    {
+        Nissan,
+        Skoda,
+        Hyundai
     }
 }
