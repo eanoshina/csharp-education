@@ -1,22 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Security;
-
-namespace Lesson1
+﻿namespace Lesson1
 {
     internal class Program
     {
         public static void Main(string[] args)
         {
-            var nissan = new Nissan(2000, "beeep","xray");
-            nissan.MakeBeep();
+            ICar nissan = new Nissan(2000, "xray", "red", 107,Transmission.Auto);
             nissan.GetModel();
-            var huynday = new Huynday(2090, "beeep beep","santa fe");
-            huynday.MakeBeep();
-            huynday.GetModel();
-            var skoda = new Skoda(2078, "gay","yety");
-            skoda.MakeBeep();
+            nissan.GetPower();
+            nissan.GetColor();
+            nissan.GetTransmission();
+
+            ICar hyundai = new Hyundai(2090, "santa fe", "black", 125, Transmission.Manual);
+            hyundai.GetModel();
+            hyundai.GetPower();
+            hyundai.GetColor();
+            hyundai.GetTransmission();
+
+            ICar skoda = new Skoda(2078, "yety", "white", 209, Transmission.Auto);
             skoda.GetModel();
+            skoda.GetPower();
+            skoda.GetColor();
+            skoda.GetTransmission();
+            
             
         }
     }

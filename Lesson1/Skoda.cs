@@ -4,21 +4,14 @@ namespace Lesson1
 {
     public class Skoda : Car
     {
-        public Skoda(int year, string beepSound, string model)
+        public Skoda(int year, string model, string color, int power, Transmission transmission)
         {
-            _name = "Skoda";
+            _name = Name.Skoda;
             _year = year;
-            _beepSound = beepSound;
             _model = model;
-        }
-
-        public override void MakeBeep()
-        {
-            Console.Out.WriteLine(_name + ", " + _beepSound);
-        }
-        public override string GetModel()
-        {
-            return _model;
+            _color = color;
+            _power = power;
+            _transmission = transmission;
         }
     }
 }

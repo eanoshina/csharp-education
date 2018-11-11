@@ -2,11 +2,11 @@ using System;
 
 namespace Lesson1
 {
-    public class Nissan : Car
+    public class Hyundai : Car
     {
-        public Nissan(int year, string model, string color, int power, Transmission transmission)
+        public Hyundai(int year, string model, string color, int power, Transmission transmission)
         {
-            _name = Name.Nissan;
+            _name = Name.Hyundai
             _year = year;
             _model = model;
             _color = color;
