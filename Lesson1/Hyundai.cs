@@ -6,7 +6,7 @@ namespace Lesson1
     {
         public Hyundai(int year, string model, string color, int power, Transmission transmission)
         {
-            _name = Name.Hyundai
+            _name = Name.Hyundai;
             _year = year;
             _model = model;
             _color = color;

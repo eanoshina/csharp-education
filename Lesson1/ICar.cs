@@ -3,7 +3,7 @@ namespace Lesson1
     public interface ICar
     {
         int GetPower();
-        Name GetName();
+        string GetName();
         string GetModel();
         string GetColor();
         Transmission GetTransmission();
