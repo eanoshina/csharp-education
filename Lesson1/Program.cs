@@ -4,26 +4,25 @@
     {
         public static void Main(string[] args)
         {
-            var nissan = new Nissan(2000, "beeep", "xray", "red", 107, "auto");
-            nissan.MakeBeep();
+            ICar nissan = new Nissan(2000, "xray", "red", 107,Transmission.Auto);
             nissan.GetModel();
             nissan.GetPower();
             nissan.GetColor();
-            nissan.GetTransmision();
+            nissan.GetTransmission();
 
-            var hyundai = new Hyundai(2090, "beeep beep", "santa fe", "black", 125, "manual");
-            hyundai.MakeBeep();
+            ICar hyundai = new Hyundai(2090, "santa fe", "black", 125, Transmission.Manual);
             hyundai.GetModel();
             hyundai.GetPower();
             hyundai.GetColor();
-            hyundai.GetTransmision();
+            hyundai.GetTransmission();
 
-            var skoda = new Skoda(2078, "gay", "yety", "white", 209, "auto");
-            skoda.MakeBeep();
+            ICar skoda = new Skoda(2078, "yety", "white", 209, Transmission.Auto);
             skoda.GetModel();
             skoda.GetPower();
             skoda.GetColor();
-            skoda.GetTransmision();
+            skoda.GetTransmission();
+            
+            
         }
     }
 }
