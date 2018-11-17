@@ -1,7 +1,6 @@
 namespace Lesson1
 {
     public abstract class Car : ICar
-
     {
         protected Name _name;
         protected int _year;
@@ -28,18 +27,20 @@ namespace Lesson1
 
         public string GetColor()
         {
-           return _color;
+            return _color;
         }
 
         public Transmission GetTransmission()
         {
-            return _transmission; 
+            return _transmission;
         }
 
         public int GetYear()
         {
             return _year;
         }
+        
+        public void Move() {}
     }
 
     public enum Transmission
